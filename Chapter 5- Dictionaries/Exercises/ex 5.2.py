@@ -6,6 +6,16 @@
 # Use these words as the keys in your glossary, and store their meanings as values.
 
 #Print each word and its meaning as neatly formatted output. 
+
+glossary={
+    "function" :"group of related statements that performs a specific task",
+    "input": "Takes in an input from user.",
+    "float":"represents a decimal number in python",
+    "loops":"Used to iterate over a sequence",
+}
+
 # You might print the word followed by a colon and then its meaning
-# A function is a group of related statements that performs a specific task.
-# Certain functions, such as int or str, return a value instead of outputting it.
+print('function :', glossary['function'])
+print('input:', glossary['input'])
+print('float:',glossary["float"])
+print("loop:",glossary["loops"])
