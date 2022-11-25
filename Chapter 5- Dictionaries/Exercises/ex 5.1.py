@@ -4,4 +4,8 @@
 # Print each piece of information stored in your dictionary.
 
 dictionary= {"first_name":"Riya", "last_name":"Joson", "age":"16", "city":"Sharjah"}
-print(dictionary)
+dictionary= {"first_name":"Riya", "last_name":"Joson", "age":"16", "city":"Sharjah"}
+print(dictionary['first_name'])
+print(dictionary['last_name'])
+print(dictionary['age'])
+print(dictionary['city'])

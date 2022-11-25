@@ -7,9 +7,16 @@
 #Modify your list, replacing the name of the guest who can’t make it 
 # with the name of the new person you are inviting.
 
-#Print a second set of invitation messages, one for each person who is still in y
+#Print a second set of invitation messages, one for each person who is still in your list.
 
 list_guests= ['Riya', 'Mimi', 'Sharvari','Ash','John']
-print("Unfortunately"+ list_guests[4],"cannot make it to dinner.")
+print("Unfortunately"+list_guests[4],"cannot make it to dinner.")
 del(list_guests[4])
-list_guests.insert[]
+list_guests.insert(4,"Rose")
+print(list_guests)
+print("You are invited to have dinner with me,",list_guests[0])
+print("You are invited to have dinner with me,",list_guests[1])
+print("You are invited to have dinner with me,",list_guests[2])
+print("You are invited to have dinner with me,",list_guests[3])
+print("You are invited to have dinner with me,",list_guests[4])
+

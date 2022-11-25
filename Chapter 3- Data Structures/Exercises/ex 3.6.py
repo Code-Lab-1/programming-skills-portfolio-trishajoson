@@ -13,10 +13,14 @@
 # Print your list to make sure you actually have an empty list at the end of your program.
 
 
-list_guests= ['Riya', 'Mimi', 'Sharvari','Ash','John']
+lprint("Sorry", list_guests[0],"I can't invite you to dinner.")
+list_guests.pop(0)
+print("Sorry", list_guests[0],"I can't invite you to dinner.")
+list_guests.pop(0)
+print("Sorry", list_guests[0],"I can't invite you to dinner.")
+list_guests.pop(0)
+print("Sorry", list_guests[0],"I can't invite you to dinner.")
+del list_guests[0]
+print("Sorry", list_guests[0],"I can't invite you to dinner.")
+del list_guests[0]
 print(list_guests)
-print("You are invited to have dinner with me,",list_guests[0])
-print("You are invited to have dinner with me,",list_guests[1])
-print("You are invited to have dinner with me,",list_guests[2])
-print("You are invited to have dinner with me,",list_guests[3])
-print("You are invited to have dinner with me,",list_guests[4])
