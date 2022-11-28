@@ -18,6 +18,11 @@ Twinkle, twinkle, little star,
 Twinkle, twinkle, little star, 
 	How I wonder what you are
 
+
+# solution1:
+print("Twinkle, twinkle, little star, \n \t )
+
+
 &nbsp;
 &nbsp;
 &nbsp;

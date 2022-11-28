@@ -1,0 +1,2 @@
+import sys
+print("Current version of python is", sys.version)
